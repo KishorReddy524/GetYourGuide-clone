@@ -1,0 +1,7 @@
+.hedder{
+   position: absolute;
+   display: flex;
+    background: none;
+    justify-content: space-around;
+   z-index: 100000000;
+}

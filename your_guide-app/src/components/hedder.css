@@ -1,0 +1,99 @@
+ *{
+    margin: 0%;
+    padding: 0%;
+ }
+ 
+  
+ .hedder{
+   position :fixed;
+    background-color: rgba(100, 100, 100, 0.4);     
+
+    
+ }
+ .hedder-1{
+    display: flex;
+    column-gap: 40px;
+    width: 50%;
+    background: none;
+
+ }
+ .hedder-1 img{
+    margin-top: 10px;
+    margin-left: 100px;
+    width:70px;
+    height: 70px;
+ }
+ .ip{
+    padding: 30px;
+ }
+ .hedder-2{
+    display: flex;
+     column-gap: 40px;
+      
+ }
+  
+ .slt{
+     margin-top: 0%;
+    padding-top: 50px;
+    
+   
+ }
+ .slt option{
+    font-weight: bold;
+    color: black;
+    font-size:larger;
+ }
+ .cent{
+    padding-top: 40px;
+  }
+ .cent button{
+    background-color: transparent;
+    border: 2px solid #ffff;
+    border-radius: 20px;
+    width: 90px;
+    height: 40px;
+    margin-top: 0px;
+    color:#ffff;
+    font-weight: bolder;
+     
+ }
+ .slt select{
+    border: none;
+    outline: none;
+    width: 70px;
+    font-weight: bold;
+    background-color: transparent;
+    color: #ffff;
+ }
+.search{
+     border-radius: 30px;
+    padding: 15px;
+    display: flex;
+    background-color: #ffff;
+}
+.search input{
+    border: none;
+    outline: none;
+    font-weight: bolder;
+    font-size: larger;
+   
+}
+.search button{
+    background-color: #0271eb;
+    color: #ffff;
+    border-radius: 20px;
+    width: 60px;
+    height: 30px;
+    border-color: transparent;
+    font-weight: bold;
+}
+.search button:hover{
+    background-color: blue;
+}
+.search h3{
+    margin: 0px;
+}
+.cent button:hover{
+background-color: #ffff;
+color: black;
+}

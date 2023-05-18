@@ -1,0 +1,37 @@
+ .home_img{
+    background-image: linear-gradient(rgba(67, 62, 62, 0.5), rgba(63, 60, 60, 0.5)), url('https://images.contentstack.io/v3/assets/blt06f605a34f1194ff/blt592c0e4e8a0b1271/641347cc0c29c7363bf394b2/Vatican_Desktop.jpg?auto=webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 120vh;
+    
+ }
+ .home_text{
+    position: absolute;
+    font-size: xx-large;
+    font-weight:bolder;
+    top: 50%;
+  left: 50%;
+  transform: translate(-100%, -60%);
+  color: white;
+ }
+ .homecards{
+   display:grid;
+    margin: 30px 0px;
+   grid-template-columns: 23% 23% 23% 23%;
+   grid-gap:2.5%
+
+ }
+.allContent{
+   margin: 20px 60px;
+}  
+.cardHedder{
+   font-weight:700;
+}
+.catedata{
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+     
+}

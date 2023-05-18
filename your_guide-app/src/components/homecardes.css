@@ -1,0 +1,63 @@
+ 
+.cardBox{
+    border: 1px solid #d9d9de;
+    height: 370px;
+    width: 270px;
+     
+    border-radius: 3%;
+    position: relative;
+    overflow: hidden;
+
+    
+
+}
+#heart{
+    position: absolute;
+    top:12px;right:15px;
+    color:rgb(255, 4, 0);
+   font-size:24px
+  
+  }
+  #heart:hover{
+    color:rgb(163, 33, 31) ;
+  }
+  .cardBox>div:first-child{
+    height: 180px;
+    width:270px;
+    overflow: hidden;
+  }
+ 
+.cardBox img{
+    
+    width: 270px;
+    height: 180px;    
+     align-items: center;
+     transition: .5s;
+
+ }
+ /* .cardBox img{
+  width: 100%;
+ } */
+ .cardBox img:hover{
+    transform: scale(1.1);
+    
+ }
+ .cardLast{
+     margin-top: 20px;
+   }
+    
+   .checked{
+    color: orange;
+   }
+   .cost{
+    display:  flex;
+    gap: 20px;
+
+   }
+   .cardData{
+    margin: 0px 10px ;
+    overflow: hidden;
+    width: 270px;
+    justify-content: space-around;
+      
+   }

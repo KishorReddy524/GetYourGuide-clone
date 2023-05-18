@@ -1,0 +1,47 @@
+.cardcontainer{
+    width: 260px;
+    height: 200px;
+   margin-top: 30px;
+    overflow: hidden;
+    position: relative;
+      
+     border-radius: 5%;
+
+}
+.slideImg{
+    width: 260px;
+    height: 200px; 
+    position: absolute;
+     
+}
+.slideImg img{
+    width: 100%;
+    transition: .5s;
+   
+ }
+.slideImg img:hover{
+    transform: scale(1);
+     
+}
+.cardhedder{
+    position: absolute;
+    
+    margin: 10px 10px;
+}
+.cardhedder>:first-child{
+    background-color: rgb(26,43,73);
+    font-size: 1.5rem;
+    font-weight: 700;
+     border-radius: 5px 5px 5px 0px ;
+    padding: 2px 10px;
+    color: white;
+}
+.cardhedder>:last-child{
+    background-color:  white;
+    font-size: 1rem;
+    font-weight: 600;
+    width: 80px;
+    padding: 4px 8px;
+    border-radius: 0px 0px 5px 5px ;
+     
+}
